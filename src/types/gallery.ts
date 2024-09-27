@@ -1,4 +1,4 @@
-interface Scientist {
+export interface Scientist {
     name: string;
     imageId: string;
     profession: string;
@@ -10,3 +10,4 @@ export interface GalleryProps {
     scientist: Scientist;
     size?: number;
 }
+

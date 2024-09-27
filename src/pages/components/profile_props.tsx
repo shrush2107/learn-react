@@ -1,7 +1,9 @@
 import { AvatarProps } from "@/types/avatar";
 
-function Avatar({person, size=100}: AvatarProps) {
+function Avatar(props: AvatarProps) {
+  const {person, size=100}=props;
   return (
+    // eslint-disable-next-line @next/next/no-img-element
     <img
       className="avatar"
       src={'https://i.imgur.com/' + person.imageId + 's.jpg'}
