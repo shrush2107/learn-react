@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { sculptureList } from '../../data/data';
 
 export default function Gallery() {

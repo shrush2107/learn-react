@@ -8,6 +8,7 @@ const people = [
 
 export default function List() {
   const listItems = people.map(person =>
+    // eslint-disable-next-line react/jsx-key
     <li>{person}</li>
   );
   return <ul>{listItems}</ul>;

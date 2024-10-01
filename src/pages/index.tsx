@@ -9,8 +9,17 @@ import MyComp from './qcomps/firstcomp'
 import Bio from './qcomps/bios'
 import TodoList from './qcomps/todos'
 import Profile from './components/profile_props'
-import Gallery from './qcomps/gallery_props'
+//import Gallery from './qcomps/gallery_props'
 import PackingList from './qcomps/props_item'
+//import List from './components/list_plain'
+import List from './qcomps/list_keys_id'
+import RecipeList from './qcomps/recipes'
+//import Gallery from './components/state'
+import Gallery from './qcomps/state'
+import PersonData from './components/stateObj'
+import Form from './qcomps/stuckForm'
+import FeedbackForm from './qcomps/thankYouCrash'
+import Counter from './components/snapshot'
 
 export default function Home() {
   return (
@@ -19,6 +28,13 @@ export default function Home() {
    //<Bio/>
    //<TodoList/>
    //<Gallery/>
-   <PackingList/>
+   //<PackingList/>
+   //<List/>
+   //<RecipeList/>
+   //<Gallery/>
+  //<PersonData/>
+  //<Form/>
+  //<FeedbackForm/>
+  <Counter/>
   )
 }
