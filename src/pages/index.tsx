@@ -12,7 +12,7 @@ import Profile from './components/profile_props'
 //import Gallery from './qcomps/gallery_props'
 import PackingList from './qcomps/props_item'
 //import List from './components/list_plain'
-import List from './qcomps/list_keys_id'
+//import List from './qcomps/list_keys_id'
 import RecipeList from './qcomps/recipes'
 //import Gallery from './components/state'
 import Gallery from './qcomps/state'
@@ -20,6 +20,10 @@ import PersonData from './components/stateObj'
 import Form from './qcomps/stuckForm'
 import FeedbackForm from './qcomps/thankYouCrash'
 import Counter from './components/snapshot'
+import RequestTracker from './qcomps/shoppingCart'
+import Scoreboard from './qcomps/updObjectsForm'
+import List from './qcomps/artistsRemoveArr'
+import BucketList from './qcomps/arrObj'
 
 export default function Home() {
   return (
@@ -35,6 +39,10 @@ export default function Home() {
   //<PersonData/>
   //<Form/>
   //<FeedbackForm/>
-  <Counter/>
+  //<Counter/>
+  //<RequestTracker/>
+  //<Scoreboard/>
+   //<List/>
+   <BucketList/>
   )
 }

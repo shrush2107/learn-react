@@ -9,7 +9,7 @@ export default function Counter() {
       <button onClick={() => {
         setNumber(n => n + 1);
         setNumber(n => n + 1);
-        setNumber(n => n + 1);
+        setNumber(n => n + 1);  // arrow function always return a value
       }}>+3</button>
     </>
   )
